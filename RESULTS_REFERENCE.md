@@ -11,16 +11,16 @@ Reference results from the validation run on the system shown in each section (r
 ## smoke
 
 - **System:** 1× NVIDIA H100 80GB HBM3 (81559 MiB) · Intel(R) Xeon(R) Platinum 8470 · Ubuntu 24.04.5 LTS · kernel 6.8.0-149-generic · driver 595.112.07
-- **Run:** 2026-11-22T10:41:47Z · status **PASS** (exit 0)
-- **Time (mm:ss):** setup 00:32 · benchmark 00:22 · whole run 00:59
-- **Source:** run 204_20261122_104147
+- **Run:** 2026-11-22T14:02:42Z · status **PASS** (exit 0)
+- **Time (mm:ss):** setup 01:22 · benchmark 00:21 · whole run 01:48
+- **Source:** run 204_20261122_140242
 - **Command:** `bash run_benchmark.sh --smoke --device-id 0 --memory-size 1 --pattern-type walking-1s --num-iterations 2 --duration 20000`
 
 | # | Metric | Result |
 |---|---|---|
 | 1 | Uncorrected ECC errors (uncorrected_ecc_errors_count) | 0.0 |
 | 2 | Corrected ECC errors (corrected_ecc_errors_count) | 0.0 |
-| 3 | Wall-clock time, s (test_wall_clock_completion_time_s) | 20.57624626159668 |
+| 3 | Wall-clock time, s (test_wall_clock_completion_time_s) | 20.555256366729736 |
 | 4 | Device buffer size, GiB (device_buffer_gib) | 1.0 |
 | 5 | Fixed-pattern fill/verify pass rate (fixed_pattern_fill_verify_pass_rate) | 100.0 |
 <!-- /profile:smoke -->
